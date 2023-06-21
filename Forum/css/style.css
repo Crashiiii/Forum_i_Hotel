@@ -1,0 +1,533 @@
+div.items p:target {display: block}
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-image: url("../img/tlo.png");
+}
+
+header {
+  display:flex;
+  align-items: center;
+  background-image: url("../img/konto.png");
+  padding: 0.5%;
+  color: White;
+}
+span a{
+  margin-right:0.9rem;
+  font-size: 23px;
+  text-decoration:none;
+  color:rgb(139, 16, 16);
+  background-color: none;
+}
+a:hover{
+  color:gold;
+  transition: .3s;
+}
+.catalog{
+  padding-left: 2.5%;
+  font-size: 20px;
+  display:block;
+}
+
+.loginn{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+}
+.loginn a:hover{
+  color:gold;
+  transition: .3s;
+}
+.loginn a{
+  margin-left:auto;
+  text-decoration:none;
+  font-size: 23px;
+  color:rgb(139, 16, 16);
+  align-items:center;
+  
+}
+.user{
+  font-size: 23px;
+  color: grey;
+}
+.marginauto{
+  background-color:black ;
+  color: white;
+  font-size:16px;
+  margin-right:10px;
+}
+article p{
+  color:white;
+}
+article li{
+  color:white;
+}
+article {
+  width: 100%;
+}
+h2{
+  color: rgb(196, 170, 26);
+  text-align: center;
+}
+h3{
+  text-align: left;
+  font-size:20px;
+}
+h1{
+  text-align: center;
+}
+
+.flex
+{
+display:flex;
+font-size: 20px;
+align-items: stretch;
+padding-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.flex-item
+{
+border: 0.2rem solid rgb(139, 16, 16);
+width:100%;
+}
+.flex-item p,li{
+  margin-left: 2%;
+}
+
+.flex-Servers{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 100%;
+  font-size:20px;
+  align-items:center;
+}
+.flex-Servers p{
+margin-left: 2%;
+}
+
+.flex-table{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 38%;
+}
+
+.colours{
+  background-color: rgba(28, 28, 33, 0.733);
+}
+.tableadm{
+  margin-left:4%;
+}
+.tableadm p{
+  padding-bottom: 5%;
+  margin-left: 4%;
+  color: rgb(139, 16, 16);
+}
+
+.chatbox{
+  background-color: rgba(28, 28, 33, 0.733);
+  width:60%;
+  margin:20px auto;
+  color: white;
+  border: 0.2rem solid white;
+  padding:20px;
+  border: 0.2rem solid rgb(139, 16, 16);
+  text-align: center;
+  height:auto;
+
+}
+.chatbox label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold;
+  font-size:2rem;
+  color:rgb(196, 170, 26);
+}
+.chatbox textarea{ 
+  color: white;
+  padding:0.5rem;
+  border:1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+  height:2rem;
+}
+.chatbox input{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+}
+.chatbox input[type=submit] { 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+.chatbox button{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  margin-top:15px;
+  width:10%; 
+  box-sizing: border-box;
+}
+.chatbox-table{
+  color: white;
+  width: 70rem;
+}
+.update{
+  background-color: rgba(28, 28, 33, 0.733);
+  width:60%;
+  margin:20px auto;
+  border: 0.2rem solid white;
+  padding:20px;
+  border: 0.2rem solid rgb(139, 16, 16);
+  text-align: center;
+  height:auto;
+
+}
+.update label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold;
+  font-size:2rem;
+  color:rgb(196, 170, 26);
+}
+.update textarea{ 
+  color: white;
+  padding:0.5rem;
+  border:1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+  height:2rem;
+}
+.update input{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+}
+.update input[type=submit] { 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+.update button{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  margin-top:15px;
+  width:10%; 
+  box-sizing: border-box;
+}
+.update-table{
+  color: white;
+  width: 70rem;
+  text-align: center;
+}
+.update a{
+  text-decoration:none;
+  color:black;
+}
+.update a:hover{
+  color:black;
+}
+.tablerank{
+  margin-left:4%;
+}
+.tablerank p{
+  padding-bottom: 5%;
+  margin-left: 4%;
+  color: rgb(139, 16, 16);
+}
+.favourites
+{
+display:flex;
+font-size: 20px;
+align-items: stretch;
+padding-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.favourites-guilds{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 100%;
+  font-size:20px;
+  align-items:center;
+}
+.favourites-guilds p{
+margin-left: 2%;
+}
+
+.favourites-table{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 38%;
+}
+.favourites-tables{
+  color:white;
+  width:80rem;
+  padding:2%;
+  align-items:center;
+}
+.favourites-tables a{
+  color: gold;
+}
+.reports{
+display:flex;
+font-size: 20px;
+align-items: stretch;
+padding-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.reports-people{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 100%;
+  font-size:20px;
+  align-items:center;
+}
+
+.guilds{
+display:flex;
+font-size: 20px;
+align-items: stretch;
+padding-top: 2%;
+padding-left: 2%;
+padding-right: 2%;
+}
+.guilds-servers{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 100%;
+  font-size:20px;
+  align-items:center;
+}
+.guilds-servers span{
+padding: 2%;
+}
+
+.guilds-names{
+  color:white;
+  width:100rem;
+  padding:2%;
+  align-items:center;
+}
+.guilds-names tr{
+  padding:2%;
+}
+.guilds-names a{
+  color: gold
+}
+
+.guilds-table{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 38%;
+}
+.guilds-add{
+  width:40%;
+  margin:20px auto;
+  border: 0.2rem solid white;
+  padding:20px;
+  border: 0.2rem solid rgb(139, 16, 16);
+  text-align: center;
+  height:40rem;
+
+}
+.guilds-add label {
+  
+  margin-bottom:5px;
+  font-weight:bold;
+  font-size:2rem;
+  color:rgb(196, 170, 26);
+}
+.guilds-add textarea{ 
+  color: white;
+  padding:0.5rem;
+  border:1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+  height:15rem;
+}
+.guilds-add input{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+}
+.guilds-add input[type=submit] { 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+
+.guilds-add button{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  margin-top:15px;
+  width:10%; 
+  box-sizing: border-box;
+}
+
+.guilds-add a{
+  text-decoration:none;
+  color:black;
+}
+.guilds-add a:hover{
+  color:black;
+}
+.sendreport{
+  width:40%;
+  margin:20px auto;
+  border: 0.2rem solid white;
+  padding:20px;
+  border: 0.2rem solid rgb(139, 16, 16);
+  text-align: center;
+  height:40rem;
+
+}
+.sendreport label {
+  display:block;
+  margin-bottom:5px;
+  font-weight:bold;
+  font-size:2rem;
+  color:rgb(196, 170, 26);
+}
+.sendreport textarea{ 
+  color: white;
+  padding:0.5rem;
+  border:1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+  height:30rem;
+}
+.sendreport input{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:100%; 
+  box-sizing: border-box;
+}
+.sendreport input[type=submit] { 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+
+.reportcol{
+  color: white;
+  width: 100rem;
+  text-align: center;
+}
+
+.details
+{
+  font-size: 1.5rem;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.details-guilds{
+  border: 0.2rem solid rgb(139, 16, 16);
+  width: 100%;
+  font-size:20px;
+}
+.details-list{
+  width:50%;
+  padding: 2rem;
+  float:left;
+}
+.details-chatbox{
+  width:50%;
+  float:right;
+  display:block;
+}
+.chatboxx-table{
+  table-layout:fixed;
+}
+.login-cell{
+  width:10%;
+  padding-bottom:2rem;
+}
+.data-cell{
+  width:15%;
+  padding-bottom:2rem;
+}
+.text-cell{
+  width:75%;
+  text-align: left;
+  white-space: normal !important;
+  word-wrap: break-word;
+  padding-bottom:2rem;
+}
+
+.details-names{
+  color:white;
+  width:90rem;
+  padding:2%;
+}
+.flex-details {
+  color: rgb(255, 255, 255);
+  border: 0.2rem solid rgb(139, 16, 16);
+  background-color: rgba(28, 28, 33, 0.733);
+  width: 100%;
+  height:40rem;
+
+}
+
+.shouldbox {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+
+}
+.shouldbox input{
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:25px;
+  width:10%; 
+  height:3rem;
+  box-sizing: border-box;
+ 
+}
+.shouldbox input[type=submit] { 
+  cursor:pointer; 
+  margin-bottom:0px;
+}
+.shouldbox textarea{ 
+  padding:0.5rem;
+  border:1px solid #ccc;
+  margin-bottom:1rem;
+  width:40%; 
+  box-sizing: border-box;
+  height:3rem;
+  float:left;
+ 
+}
+.members{
+  color:rgb(196, 170, 26);
+}
+
+.margin-list{
+padding-left:1rem;
+}
+
+.margin-table{
+  padding-left:2rem;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  clear: both;
+}
+
